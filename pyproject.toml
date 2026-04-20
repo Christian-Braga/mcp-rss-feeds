@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+ 
+[project]
+name = "mcp-rss-feeds"
+version = "0.1.0"
+description = "MCP server to manage and explore your RSS feeds through any MCP-compatible AI client"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "feedparser>=6.0",
+    "feedsearch>=1.0",
+    "certifi>=2024.0.0",
+    "werkzeug>=2.3,<3.0",
+    "trafilatura>=2.0.0",
+    "tldextract",
+    "python-dateutil>=2.9.0",
+    "dateparser>=1.4.0",
+    "requests>=2.32",
+    "httpx",
+    "aiohttp>=3.13.3",
+    "beautifulsoup4>=4.14",
+    "lxml>=6.1.0",
+    "lxml-html-clean>=0.4.4",
+    "platformdirs",
+    "colorlog",
+    "charset-normalizer>=3.0.0",
+]
+ 
+[project.scripts]
+mcp-rss-feeds = "mcp_rss_feeds.server:main"
+ 
+[tool.setuptools.packages.find]
+where = ["src"]
+ 
+[tool.setuptools.package-dir]
+"" = "src"
