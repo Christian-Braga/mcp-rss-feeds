@@ -4,10 +4,6 @@ An MCP server to manage and explore your RSS feeds through any MCP-compatible AI
 
 Add sources, browse articles, get daily briefings and discover new content — all through a conversation, without leaving your AI assistant.
 
----
-
-## What is this
-
 `mcp-rss-feeds` is a **local MCP server** that runs on your machine and connects to any AI client that supports the Model Context Protocol — including Claude Desktop, Claude Code, and compatible agents.
 
 ### What is MCP
