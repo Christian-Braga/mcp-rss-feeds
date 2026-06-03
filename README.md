@@ -1,7 +1,5 @@
 # mcp-rss-feeds
 
-![logo](mcp-rss-feeds-logo.png)
-
 An MCP server to manage and explore your RSS feeds through any MCP-compatible AI client.
 
 Add sources, browse articles, get daily briefings and discover new content — all through a conversation, without leaving your AI assistant.
